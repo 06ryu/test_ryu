@@ -1,0 +1,13 @@
+ログイン
+/Applications/XAMPP/xamppfiles/bin/mysql -u root -p
+
+テーブル作成
+create table member(
+    -> id mediumint unsigned not null auto_increment,
+    -> last_name varchar(50),
+    -> first_name varchar(50),
+    -> primary key(id)
+    -> );
+
+テーブル閲覧
+show tables;
